@@ -14,7 +14,7 @@ const Home = () => {
       <Message />
       <VideoPage />
       <Courses />
-      {/* <PhotoGallery /> */}
+      <PhotoGallery />
     </div>
   );
 };

@@ -9,6 +9,7 @@ import Services from "./components/pages/service/Services";
 import Header from "./components/header/Header";
 import AboutPage from "./components/pages/about/AboutPage";
 import { useEffect } from "react";
+import Footer from "./components/footer/Footer";
 const App = () => {
   useEffect(() => {
     AOS.init({
@@ -25,6 +26,7 @@ const App = () => {
           <Route path="/service" element={<Services />} />
         </Routes>
       </Router>
+      <Footer />
     </div>
   );
 };
